@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "scully-plugin-amp-css": ["libs/plugins/plugin-amp-css/src/index.ts"],
       "scully-plugin-canonical": ["libs/plugins/plugin-canonical/src/index.ts"],
       "scully-plugin-page-title": [
         "libs/plugins/plugin-page-title/src/index.ts"

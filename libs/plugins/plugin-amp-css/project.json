@@ -1,0 +1,23 @@
+{
+  "root": "libs/plugins/plugin-amp-css",
+  "sourceRoot": "libs/plugins/plugin-amp-css/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/plugins/plugin-amp-css/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/plugins/plugin-amp-css"],
+      "options": {
+        "jestConfig": "libs/plugins/plugin-amp-css/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

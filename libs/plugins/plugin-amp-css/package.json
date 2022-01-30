@@ -1,0 +1,34 @@
+{
+  "name": "scully-plugin-amp-css",
+  "version": "3.0.0",
+  "description": "Scully plugin to combine all style tags in to one",
+  "main": "src/index.js",
+  "author": "pjlamb12",
+  "contributors": [
+    {
+      "name": "Preston Lamb",
+      "url": "https://www.prestonlamb.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pjlamb12/scully-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com//pjlamb12/scully-plugins/issues"
+  },
+  "homepage": "",
+  "keywords": [
+    "scully",
+    "angular",
+    "amp",
+    "styles"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@scullyio/scully": "^2.0.0"
+  },
+  "dependencies": {
+    "jsdom": "^16.4.0"
+  }
+}
