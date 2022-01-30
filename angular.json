@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "scully-plugins": "apps/scully-plugins",
+    "scully-plugins-e2e": "apps/scully-plugins-e2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "root": "apps/scully-plugins-e2e",
+  "sourceRoot": "apps/scully-plugins-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/scully-plugins-e2e/cypress.json",
+        "devServerTarget": "scully-plugins:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "scully-plugins:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/scully-plugins-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["scully-plugins"]
+}
