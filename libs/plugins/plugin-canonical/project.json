@@ -1,0 +1,23 @@
+{
+  "root": "libs/plugins/plugin-canonical",
+  "sourceRoot": "libs/plugins/plugin-canonical/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/plugins/plugin-canonical/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/plugins/plugin-canonical"],
+      "options": {
+        "jestConfig": "libs/plugins/plugin-canonical/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

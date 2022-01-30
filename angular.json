@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "plugins-plugin-canonical": "libs/plugins/plugin-canonical",
     "scully-plugins": "apps/scully-plugins",
     "scully-plugins-e2e": "apps/scully-plugins-e2e"
   }
