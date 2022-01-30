@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "scully-plugin-canonical": ["libs/plugins/plugin-canonical/src/index.ts"]
+      "scully-plugin-canonical": ["libs/plugins/plugin-canonical/src/index.ts"],
+      "scully-plugin-page-title": [
+        "libs/plugins/plugin-page-title/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
